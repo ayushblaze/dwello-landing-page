@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDF5EE;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  min-width: max-content;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .animate-marquee svg {
+    width: 60px;
+    height: 24px;
+  }
+  .mx-40 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+
+/* Footer tweaks for responsiveness */
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer a {
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #E8D0C3;
+}
+
+/* Residences section responsive tweaks */
+@media (max-width: 900px) {
+  .residences-cards {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+/* Testimonials section tweaks */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .testimonials-cards {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 2rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .w-80 {
+    width: 95vw !important;
+    min-width: 0 !important;
+  }
+}
+
+/* Contact Us section responsive tweaks */
+@media (max-width: 600px) {
+  .contact-form {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .contact-form input,
+  .contact-form button {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-help-options {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
+
+/* Section margin utility for consistent spacing */
+section, footer {
+  margin-bottom: 4rem;
+}
+footer {
+  margin-bottom: 0;
+}
+
+/* Company logos in marquee section */
+.animate-marquee img {
+  vertical-align: middle;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+  padding: 0.25rem 0.5rem;
+}
+
+/* Footer logo white background for visibility */
+footer img {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
