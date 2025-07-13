@@ -78,33 +78,33 @@ function App() {
 
       {/* HERO SECTION */}
       <div className='w-full bg-cream pb-32'>
-        <section className='px-6 md:px-10 py-12 md:py-0 flex flex-col-reverse md:flex-row items-center md:justify-center gap-10 md:gap-8 max-w-7xl mx-auto'>
-          <div className='text-center md:text-left max-w-md md:max-w-lg'>
-            <h1 className='text-5xl md:text-7xl font-extrabold text-[#2D1C13] leading-tight'>Find Your <br /> <span>Dream Home</span></h1>
-            <p className='mt-4 font-medium text-[#2D1C13]/80 text-lg md:text-xl'>Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
-            <button className='mt-8 bg-[#2D1C13] text-white px-8 py-2 rounded-lg font-medium text-base md:text-lg'>Sign up</button>
-          </div>
-          <div className='-mt-3 w-full max-w-md md:max-w-none flex-1'>
-            <img src={heroImage} alt="hero-image" className='w-full h-auto' />
-          </div>
-        </section>
-        {/* FILTER BAR */}
+      <section className='px-6 md:px-10 py-12 md:py-0 flex flex-col-reverse md:flex-row items-center md:justify-center gap-10 md:gap-8 max-w-7xl mx-auto'>
+        <div className='text-center md:text-left max-w-md md:max-w-lg'>
+          <h1 className='text-5xl md:text-7xl font-extrabold text-[#2D1C13] leading-tight'>Find Your <br /> <span>Dream Home</span></h1>
+          <p className='mt-4 font-medium text-[#2D1C13]/80 text-lg md:text-xl'>Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+          <button className='mt-8 bg-[#2D1C13] text-white px-8 py-2 rounded-lg font-medium text-base md:text-lg'>Sign up</button>
+        </div>
+        <div className='-mt-3 w-full max-w-md md:max-w-none flex-1'>
+          <img src={heroImage} alt="hero-image" className='w-full h-auto' />
+        </div>
+      </section>
+      {/* FILTER BAR */}
         <div className='relative -mt-16'>
-          <div className='absolute left-1/2 -translate-x-1/2 -bottom-16 w-full max-w-3xl bg-[#E8D0C3] rounded-xl border-2 border-blue-500 px-4 md:px-6 py-6 md:py-9 shadow-lg flex flex-col md:flex-row flex-wrap items-stretch md:items-center justify-between gap-4 md:gap-6'>
-            <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
-              <span className='font-semibold text-sm md:text-md'>Location</span>
-              <MapPinned className='w-5 h-5 md:w-6 md:h-6' />
-            </div>
-            <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
-              <span className='font-semibold text-sm md:text-md'>Type</span>
-              <House className='w-5 h-5 md:w-6 md:h-6' />
-            </div>
-            <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
-              <span className='font-semibold text-sm md:text-md'>Price</span>
-              <CircleDollarSign className='w-5 h-5 md:w-6 md:h-6' />
-            </div>
-            <div className='flex items-center justify-center flex-1 min-w-[140px]'>
-              <button className='w-full md:w-auto bg-[#2D1C13] text-white px-6 md:px-9 py-3 rounded-lg font-medium text-base md:text-lg'>Sign up</button>
+        <div className='absolute left-1/2 -translate-x-1/2 -bottom-16 w-full max-w-3xl bg-[#E8D0C3] rounded-xl border-2 border-blue-500 px-4 md:px-6 py-6 md:py-9 shadow-lg flex flex-col md:flex-row flex-wrap items-stretch md:items-center justify-between gap-4 md:gap-6'>
+          <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
+            <span className='font-semibold text-sm md:text-md'>Location</span>
+            <MapPinned className='w-5 h-5 md:w-6 md:h-6' />
+          </div>
+          <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
+            <span className='font-semibold text-sm md:text-md'>Type</span>
+            <House className='w-5 h-5 md:w-6 md:h-6' />
+          </div>
+          <div className='flex items-center gap-4 bg-[#F8EEE8] px-4 py-3 rounded-xl flex-1 min-w-[140px]'>
+            <span className='font-semibold text-sm md:text-md'>Price</span>
+            <CircleDollarSign className='w-5 h-5 md:w-6 md:h-6' />
+          </div>
+          <div className='flex items-center justify-center flex-1 min-w-[140px]'>
+            <button className='w-full md:w-auto bg-[#2D1C13] text-white px-6 md:px-9 py-3 rounded-lg font-medium text-base md:text-lg'>Sign up</button>
             </div>
           </div>
         </div>
@@ -138,22 +138,22 @@ function App() {
 
       {/* WHITE BACKGROUND WRAPPER FOR WHY CHOOSE US & RESIDENCES */}
       <div className="bg-white w-full">
-        {/* WHY CHOOSE US */}
+      {/* WHY CHOOSE US */}
         <section className='text-center bg-white mb-16'>
-          <h1 className='text-4xl font-bold text-[#2D1C13]'>Why Choose Us</h1>
-          <p className='mt-6 text-[#4c392f]/80 text-md font-bold'>Elevating Your Home Buying Experience with Expertise, Integrity,<br /> and Unmatched Personalized Service</p>
+        <h1 className='text-4xl font-bold text-[#2D1C13]'>Why Choose Us</h1>
+        <p className='mt-6 text-[#4c392f]/80 text-md font-bold'>Elevating Your Home Buying Experience with Expertise, Integrity,<br /> and Unmatched Personalized Service</p>
           <div className='mt-10 flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 md:gap-6 px-4 md:px-10 lg:px-40'>
-            <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
-              <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
-                <MapPin />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Personalized Service</h3>
-              <p className="text-sm text-[#2D1C13]/80">
-                Our services adapt to your unique needs, making your journey stress-free
-              </p>
+          <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
+            <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
+              <MapPin />
             </div>
-            <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
-              <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
+            <h3 className="text-lg font-semibold mb-2">Personalized Service</h3>
+            <p className="text-sm text-[#2D1C13]/80">
+              Our services adapt to your unique needs, making your journey stress-free
+            </p>
+          </div>
+          <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
+            <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
                 <Users />
               </div>
               <h3 className="text-lg font-semibold mb-2">Expert Agents</h3>
@@ -166,12 +166,12 @@ function App() {
                 <BadgeCheck />
               </div>
               <h3 className="text-lg font-semibold mb-2">Transparent Process</h3>
-              <p className="text-sm text-[#2D1C13]/80">
+            <p className="text-sm text-[#2D1C13]/80">
                 Enjoy a clear, honest, and seamless home buying experience
-              </p>
-            </div>
-            <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
-              <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
+            </p>
+          </div>
+          <div className="bg-[#E8D0C3] p-6 rounded-2xl shadow-sm w-60 text-[#2D1C13]">
+            <div className="bg-[#F8EEE8] p-4 rounded-lg inline-block mb-4">
                 <Layers />
               </div>
               <h3 className="text-lg font-semibold mb-2">Wide Selection</h3>
