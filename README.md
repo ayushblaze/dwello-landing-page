@@ -1,12 +1,29 @@
-# React + Vite
+# Dwello - Real Estate Landing Page 🏡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dwello is a responsive and visually modern landing page concept for a real estate company. Built with React, TailwindCSS, and Vite, it showcases a clean UI and mobile-friendly layout for a fictional company that sells homes.
 
-Currently, two official plugins are available:
+This project was made as a practice exercise by replicating a Figma design with full frontend implementation but no backend functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive design (mobile-first)
+- Smooth transitions and layout
+- TailwindCSS utility-first styling
+- Reusable components with React
+- Built with Vite for lightning-fast dev experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **React**
+- **TailwindCSS**
+- **Vite**
+
+## 📷 Screenshots
+
+### 🖥️ Desktop View
+<img width="1800" height="5000" alt="screencapture-localhost-5173-2025-07-13-19_36_00" src="https://github.com/user-attachments/assets/6c4c6792-ad5c-4a24-945e-fc5120cf6803" />
+
+
+### 📱 Mobile View
+## Go give it a try yourself!
+
